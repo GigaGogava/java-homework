@@ -1,13 +1,9 @@
 package ge.tbc.testautomation.javaoop.runners;
 
-import ge.tbc.testautomation.abstractClassesInterfaces.IResizableCircle;
-import ge.tbc.testautomation.abstractClassesInterfaces.IValidCircle;
-import ge.tbc.testautomation.javaoop.figures.Circle;
-
 public class Main {
     public static void main(String[] args) {
 
-        Circle circle = new Circle(7.4);
+       /* Circle circle = new Circle(7.4);
 
         System.out.println("Area of circle: " + circle.getArea());
         System.out.println("Length of circle: " + circle.getLength());
@@ -24,10 +20,9 @@ public class Main {
         IValidCircle validator = circle;
         boolean isValid = validator.validateCircle(circle);
 
-        System.out.println("Is circle valid? " + isValid);
+        System.out.println("Is circle valid? " + isValid);*/
     }
-}
-
+    }
 
 
 
