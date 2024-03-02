@@ -1,6 +1,6 @@
 package ge.tbc.testautomation.javaoop.figures;
 
-public class Rectangle implements Comparable<Rectangle> {
+public class Rectangle extends Figure implements Comparable<Rectangle> {
     private double width, height;
 
     public Rectangle(double width, double height) {
@@ -16,6 +16,17 @@ public class Rectangle implements Comparable<Rectangle> {
     public double getArea() {
         return width * height;
     }
+
+    @Override
+    public double getLength() {
+        return 0;
+    }
+
+    @Override
+    public void printPackageName() {
+
+    }
+
     @Override
     public String toString() {
     return "Rectangle : " + " width = " + width + " height " + height;
