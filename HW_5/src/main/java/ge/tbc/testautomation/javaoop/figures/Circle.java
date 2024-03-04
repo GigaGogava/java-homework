@@ -1,6 +1,6 @@
 package ge.tbc.testautomation.javaoop.figures;
 
-public class Circle implements Comparable<Circle> {
+public class Circle extends Figure implements Comparable<Circle> {
     private double radius;
 
     public Circle(double radius) {
@@ -20,8 +20,26 @@ public class Circle implements Comparable<Circle> {
 
 
     @Override
+    public double getArea() {
+        return 0;
+    }
+
+    @Override
+    public double getLength() {
+        return 0;
+    }
+
+    @Override
+    public void printPackageName() {
+
+    }
+
+    @Override
     public String toString() {
-        return "Circle radius: " + radius;    }
+        return "Circle{" +
+                "radius=" + radius +
+                '}';
+    }
 }
 
 

@@ -1,14 +1,9 @@
 package ge.tbc.testautomation.javaoop.runners;
 
-import ge.tbc.testautomation.javaoop.figures.Circle;
-import ge.tbc.testautomation.javaoop.figures.Rectangle;
-import ge.tbc.testautomation.javaoop.figures.ReversedComparator;
-
-import java.util.*;
 public class ContainersAndComparing {
         public static void main(String[] args) {
 
-                //ლისტი და იტერატორი
+                /*//ლისტი და იტერატორი
                 ArrayList<String> phoneNumbers = new ArrayList<>();
                 phoneNumbers.add("555-542-231");
                 phoneNumbers.add("555-887-987");
@@ -82,7 +77,7 @@ public class ContainersAndComparing {
                 rectangles.add(new Rectangle((int) 3.5, (int) 7.0));
                 rectangles.sort(new ReversedComparator());
                 System.out.println("\nRectangles after sorting (descending by area):");
-                System.out.println(rectangles);
+                System.out.println(rectangles);*/
 
 
 
