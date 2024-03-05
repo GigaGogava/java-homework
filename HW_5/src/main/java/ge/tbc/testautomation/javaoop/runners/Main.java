@@ -23,7 +23,6 @@ public class Main {
         System.out.println(Arrays.asList(fieldsPair.getElementOne()));
         System.out.println(Arrays.asList(fieldsPair.getElementTwo()));
         System.out.println(Arrays.asList(fieldsPair));
-        System.out.println(Arrays.asList(fieldsPair));
 
         Circle circle = new Circle(5);
         Rectangle rectangle = new Rectangle(4, 6);
